@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="players">
+        <div class="player">
+          <div class="jogadoresq">
+            <h2>Jogador A <span class="cat"></span></h2>
+
+            <div class="score">
+              <h3>Pontos: <span id="p2">0</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="middlecontainer">
+        <h1 id="titulo">Jogo da Velha</h1>
+        <div>
+          <div id="0" class="square"></div>
+          <div id="1" class="square"></div>
+          <div id="2" class="square"></div>
+        </div>
+        <div>
+          <div id="3" class="square"></div>
+          <div id="4" class="square"></div>
+          <div id="5" class="square"></div>
+        </div>
+        <div>
+          <div id="6" class="square"></div>
+          <div id="7" class="square"></div>
+          <div id="8" class="square"></div>
+        </div>
+        <button class="resetRound mv">Reiniciar Rodada</button>
+        <button class="resetGame mv">Reiniciar Jogo</button>
+      </div>
+      <div class="players">
+        <div class="player">
+          <div class="jogadordir">
+            <h2>Jogador B <span class="dog"></span></h2>
+
+            <div class="score">
+              <h3>Pontos: <span id="p1">0</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script/game.js"></script>
+    <script src="script/interface.js"></script>
+  </body>
+</html>
